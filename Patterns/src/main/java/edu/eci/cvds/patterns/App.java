@@ -7,15 +7,8 @@ package edu.eci.cvds.patterns;
 public class App 
 {
     public static void main( String[] args ) {
-        try{
-            System.out.println("Hello " + args[0] + "!");
-        }
-        catch{
-            System.out.println("Hello world!");
-        }
-        finally{
-            System.out.println("xdxdxd");
-        }
+
+        System.out.println("Hello " + args[0] + "!");
 
     }
 }
