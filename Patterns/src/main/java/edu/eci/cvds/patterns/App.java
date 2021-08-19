@@ -8,6 +8,12 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        try{
+            System.out.println("Hello " + args[0] + "!");
+        }
+        catch{
+            System.out.println("Hello world!");
+        }
+
     }
 }
