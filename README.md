@@ -22,3 +22,9 @@ Son complementos de código que contienen un grupo de funciones o característic
 ## Qué es y para qué sirve el repositorio central de Maven
 
 Es un repositorio en el cual se encuentran varias dependencias para poder integrar en un proyecto 
+
+## Busque cuál es el objetivo del parametro package y qué otros parámetros se podrían enviar al comando mvn
+
+Toma el código compilado y lo empaqueta en un formato distribuible, como un JAR
+
+
