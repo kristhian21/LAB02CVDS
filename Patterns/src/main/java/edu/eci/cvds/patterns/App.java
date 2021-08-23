@@ -1,4 +1,5 @@
 package edu.eci.cvds.patterns;
+import java.util.Arrays;
 
 /**
  * Hello world!
@@ -11,7 +12,7 @@ public class App
             System.out.println("Hello world!");
         }
         else{
-            System.out.println("Hello " + args.toString().replace("[", "").replace("]", "").replace(",", " ") + "!");
+            System.out.println("Hello " + Arrays.toString(args).replace("[", "").replace("]", "").replace(",", " ") + "!!!!");
         }
     }
 }
