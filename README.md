@@ -27,4 +27,10 @@ Es un repositorio en el cual se encuentran varias dependencias para poder integr
 
 Toma el código compilado y lo empaqueta en un formato distribuible, como un JAR
 
+## COMPILAR Y EJECUTAR
+
+![hello world](img/holaMundo)
+![hello Majo](img/holaMajo)
+![hello Majo Torres](img/holaMajoTorres)
+
 
