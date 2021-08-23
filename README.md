@@ -29,9 +29,9 @@ Toma el código compilado y lo empaqueta en un formato distribuible, como un JAR
 
 ## COMPILAR Y EJECUTAR
 
-<img src="img/holaMundo.png" alt="Hello world" width=300> 
-![hello Majo](/img/holaMajo)
-![hello Majo Torres](/img/holaMajoTorres)
+<img src="img/holaMundo.png" alt="Hello world" width=600> 
+<img src="img/holaMajo.png" alt="Hello Majo" width=600> 
+<img src="img/holaMajoTorres.png" alt="Hello Majo Torres" width=600> 
 
 
 
