@@ -7,11 +7,11 @@ package edu.eci.cvds.patterns;
 public class App 
 {
     public static void main( String[] args ) {
-        try{
-            System.out.println("Hello " + args[0] + "!!!!");
+        if(args.length == 0){
+            System.out.println("Hello world!");
         }
-        catch (Exception ex){
-            System.out.println("Error :(" + ex.getMessage());
+        else{
+            System.out.println("Hello " + args.toString().replace("[", "").replace("]", "").replace(",", " ") + "!");
         }
     }
 }
