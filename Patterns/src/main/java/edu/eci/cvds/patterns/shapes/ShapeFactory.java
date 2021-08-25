@@ -1,9 +1,10 @@
 package edu.eci.cvds.patterns.shapes;
+import edu.eci.cvds.patterns.concrete;
 
 public abstract class ShapeFactory {
 
     public abstract Shape create(RegularShapeType type){
-        switch (type)) {
+        switch (type) {
             case Triangle:
                 return new Triangle(3);
                 break;
