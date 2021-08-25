@@ -4,11 +4,13 @@ import edu.eci.cvds.patterns.shapes.Shape;
 
 public class Triangle implements Shape {
 
-    public Triangle(){
-        
+    private int vertices;
+
+    public Triangle(int vertices){
+        this.vertices = vertices;
     }
     
     public int getNumberOfEdges() {
-        return 3;
+        return vertices;
     }
 }

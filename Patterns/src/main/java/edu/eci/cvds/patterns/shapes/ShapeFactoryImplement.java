@@ -1,21 +1,22 @@
 package edu.eci.cvds.patterns.shapes;
 
-public abstract class ShapeFactory {
+public class ShapeFactoryImplement extends ShapeFactory{
 
-    public abstract Shape create(RegularShapeType type){
+    public Shape create(RegularShapeType type){
         switch (type)) {
             case Triangle:
-                return new Triangle(3);
+                return TriangleCreator();
                 break;
             case Quadrilateral:
-                return new Quadrilateral(4);
+                return QuadrilateralCreator();
                 break;
             case Pentagon:
-                return new Pentagon(5);
+                return PentagonCreator();
                 break;
             case Hexagon:
-                return new Hexagon(6);
+                return HexagonCreator();
                 break;
         }
     }
 }
+
